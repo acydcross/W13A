@@ -5,15 +5,23 @@
         <h3>BODY</h3>
         <h3>BODY</h3>
         <div></div>
-        <page-body2></page-body2>
+        <page-second-body></page-second-body>
+        <page-third-body></page-third-body>
+        <page-fourth-body></page-fourth-body>
     </div>
 </template>
 
 <script>
+import PageSecondBody from "../components/subcomponents/body2.vue";
+import PageThirdBody from "../components/subcomponents/body3.vue";
+import PageFourthBody from "../components/subcomponents/body4.vue";
 
 export default {
     name: "app2",
     components: {
+        PageSecondBody,
+        PageThirdBody,
+        PageFourthBody
   }
 }
 </script>

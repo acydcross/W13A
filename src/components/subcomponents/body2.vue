@@ -1,5 +1,5 @@
 <template>
-    <div id="app3" class="page-body2">
+    <div id="app3" class="page-second-body">
         <div></div>
         <h3>BODY2</h3>
         <h3>BODY2</h3>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style scoped>
-    .page-body2 {
+    .page-second-body {
         display: grid;
         justify-items: center;
         align-items: center;
