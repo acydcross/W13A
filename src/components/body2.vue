@@ -1,21 +1,24 @@
 <template>
-    <div class="page-body2">
-        <img alt="Vue logo" src="../assets/logo.png">
+    <div id="app3" class="page-body2">
         <div></div>
         <h3>BODY2</h3>
         <h3>BODY2</h3>
         <h3>BODY2</h3>
+        <div></div>
     </div>
 </template>
 
 <script>
-    export default {
-        name: "page-body2"
-    }
+
+export default {
+    name: "app3",
+    components: {
+  }
+}
 </script>
 
 <style scoped>
-    .another-body {
+    .page-body2 {
         display: grid;
         justify-items: center;
         align-items: center;
